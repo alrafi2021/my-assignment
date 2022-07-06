@@ -1,7 +1,8 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
-#top-banner{
+
+#top-banner {
     background-image: url(donation13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,77 +14,139 @@ body{
     flex-direction: column;
     text-align: center;
 }
-.link-button{
+
+.link-button {
     color: aliceblue;
     background-color: brown;
     text-decoration: none;
     padding: 10px;
-    border: 2px solid white ;
-    border-radius: 7px;  
-
-    
+    border: 2px solid white;
+    border-radius: 7px;
 }
-h1{
+
+h1 {
     font-size: 50px;
     font-weight: bolder;
 }
-h2{
+
+h2 {
     font-size: 40px;
 }
-#donate{
+
+#donate {
     text-align: center;
 }
-#donate input{
-border: none;
-border-bottom: 1px solid black;
-width: 60%;
-text-align: center;
-display: block;
-margin: 25px auto;
+
+#donate input {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 60%;
+    text-align: center;
+    display: block;
+    margin: 25px auto;
 }
-.ammount{
+
+.ammount {
     display: flex;
     text-align: center;
     justify-content: center;
-    padding:2% 20%;
+    padding: 2% 20%;
 }
-.ammount h3{
+
+.ammount h3 {
     background-color: rgb(221, 189, 189);
     padding: 20px;
-    margin: 10px ;
+    margin: 10px;
     border-radius: 7px;
     color: aliceblue;
     font-size: 2rem;
 }
-#selected-amount{
+
+#selected-amount {
     background-color: rgb(199, 115, 115);
     border: 3px solid black;
 }
-#middle-side{
+
+#middle-side {
     text-align: center;
 }
-#bottom-area{
+
+#bottom-area {
     display: flex;
     margin: 10px;
     margin-top: 100px;
     padding: 20px;
-    text-align: left; 
+    text-align: left;
 }
-#first{
-    background-color:rgb(178, 145, 209) ;
+
+#first {
+    background-color: rgb(178, 145, 209);
     margin: 15px;
     border-radius: 5px;
     padding-left: 6px;
 }
-#second{
+
+#second {
     background-color: rgb(133, 190, 167);
     margin: 15px;
     border-radius: 5px;
     padding-left: 6px;
 }
-#third{
-    background-color:grey ;
+
+#third {
+    background-color: grey;
     margin: 15px;
-    border-radius: 5px; 
+    border-radius: 5px;
     padding-left: 6px;
+}
+
+#image-size {
+    width: 600px;
+    height: 400px;
+    padding-right: 30px;
+}
+
+#bottom-side {
+    display: flex;
+    margin-top: 90px;
+    text-align: justify;
+}
+
+.contribute {
+    padding: 10px;
+    margin: 10px;
+}
+
+#get-my-update {
+    text-align: center;
+}
+
+.email {
+    text-align: center;
+    background-color: rgb(91, 216, 210);
+    padding: 80px;
+    margin: 180px;
+    margin-top: 50px;
+    border-radius: 4px;
+    margin-bottom: 80px;
+
+}
+
+.placeholder {
+    background-color: rgb(130, 214, 210);
+    border-radius: 4px;
+}
+
+.submit {
+    background-color: rgb(216, 89, 89);
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    background-color: burlywood;
+    border-radius: 5px;
+    padding: 80px;
+    padding-top: 15px;
+    padding-bottom: 015px;
 }

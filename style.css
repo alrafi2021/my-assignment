@@ -73,31 +73,32 @@ h2 {
 
 #bottom-area {
     display: flex;
-    margin: 10px;
     margin-top: 100px;
-    padding: 20px;
-    text-align: left;
 }
+
 
 #first {
     background-color: rgb(178, 145, 209);
-    margin: 15px;
     border-radius: 5px;
-    padding-left: 6px;
+    margin: 5px;
+    width: 900px;
+    padding-left: 10px;
 }
 
 #second {
     background-color: rgb(133, 190, 167);
-    margin: 15px;
     border-radius: 5px;
-    padding-left: 6px;
+    margin: 5px;
+    width: 900px;
+    padding-left: 10px;
 }
 
 #third {
     background-color: grey;
-    margin: 15px;
     border-radius: 5px;
-    padding-left: 6px;
+    margin: 5px;
+    width: 900px;
+    padding-left: 10px;
 }
 
 #image-size {
@@ -123,7 +124,7 @@ h2 {
 
 .email {
     text-align: center;
-    background-color: rgb(91, 216, 210);
+    background-color: rgb(100, 155, 129);
     padding: 80px;
     margin: 180px;
     margin-top: 50px;
@@ -133,20 +134,27 @@ h2 {
 }
 
 .placeholder {
-    background-color: rgb(130, 214, 210);
+    background-color: white;
     border-radius: 4px;
+    padding: 10px;
 }
 
 .submit {
-    background-color: rgb(216, 89, 89);
+    background-color: brown;
     border-radius: 4px;
+    padding: 10px;
 }
 
 footer {
     text-align: center;
-    background-color: burlywood;
+    background-color: gray;
     border-radius: 5px;
     padding: 80px;
     padding-top: 15px;
     padding-bottom: 015px;
+}
+
+.image-mini {
+    width: 50px;
+    padding-top: 10px;
 }
